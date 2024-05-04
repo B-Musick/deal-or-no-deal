@@ -5,7 +5,7 @@ import NumberedCase from "../components/NumberedCase";
 
 function CasesView({cases, selectCase}) {
     let casesObj = cases.map((value, index)=>{
-    return <NumberedCase caseVal={value} selectCase={selectCase} index={index}/>
+        return <NumberedCase caseVal={value} selectCase={selectCase} index={index}/>
     })
 
     return (
